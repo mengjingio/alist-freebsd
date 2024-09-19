@@ -25,7 +25,7 @@ jobs:
               await github.rest.actions.createWorkflowDispatch({
               owner: 'applexad',
               repo: 'alist-freebsd',
-              workflow_id: 'build.yml',
+              workflow_id: '118215421',
               ref: 'main'
               })
               
